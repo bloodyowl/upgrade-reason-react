@@ -16,6 +16,8 @@ Run the script
 
 ```console
 $ find src -name "*.re" | Upgrade
+$ # or from project directories ./node_modules
+$ find src -name "*.re" | node_modules/bloodyowl-upgrade-reason-react/bin/Upgrade
 $ # or on windows
 $ find src -name "*.re" | Upgrade.exe
 ```
